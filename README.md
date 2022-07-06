@@ -63,7 +63,17 @@ REPO NAV:
     --Uterine Contractions.png
     
     --cdc_mm_by_race.jpeg
+ 
+ 
+  -- PDFs
     
+    --.DS_Store
+    
+    -- Predicting Pathological Prenatal Diagnoses.pdf
+    
+    --final_notebook - Jupyter Notebook.pdf
+    
+    --github.pdf
   --.DS_Store
   
   --State-restrictions-on-abortion-map-June-2022-thumbnail.webp
