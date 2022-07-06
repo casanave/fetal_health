@@ -1,7 +1,10 @@
 Problem: Maternal Morbidity on the Rise
 According to the University of Minnesota, "Maternal deaths in the first months of the COVID-19 pandemic increased 33%—and even higher in Black and Hispanic women..."
-
 CITATION: https://www.cidrap.umn.edu/news-perspective/2022/06/maternal-deaths-climbed-33-during-covid-19.
+
+
+
+Maternal Morbidity is already high and lacking in equity.![cdc_mm_by_race](https://user-images.githubusercontent.com/8728172/177600651-32f6a305-d27d-4f56-b8a8-d6fe241e9e35.jpeg)
 
 Duke University recently published a paper estimating that a total ban on abortion would increase Maternal morbidity rates dramatically.
 
@@ -10,6 +13,9 @@ Duke University recently published a paper estimating that a total ban on aborti
 CITATION https://read.dukeupress.edu/demography/article/58/6/2019/265968/The-Pregnancy-Related-Mortality-Impact-of-a-Total
 
 Given the most recent overturning of Roe vs. Wade in the United States, it's crucial that medical research is performed with the goal of decreasing maternal morbidity. It's especially important that health care solutions for birthing parents be accessible and low cost.
+
+![sharon-mccutcheon--iaHr12PVQg-unsplash](https://user-images.githubusercontent.com/8728172/177600886-9d990ae5-3251-43dc-b38e-e848136a4676.jpg)
+
 
 Business Case: Maternal Morbidity Research
 NYU Langone in NYC is doing research on Machine Learning and it's applications in lethal fetal diagnoses. Early detection in these cases provide the best possible medical outcomes for birthing parents and provide the most choices on how the birthing parents would like to handle the diagnosis.
@@ -41,22 +47,6 @@ NYU Langone is looking to provide the best possible outcomes to their patients, 
 CITATION : Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
 From Kaggle on the Size of the Data and Classes within:
-
-This dataset contains 2126 records of features extracted from Cardiotocogram exams, which were then classified by three expert obstetritians into 3 classes:
-
-Normal
-
-Suspect
-
-Pathological
-
-From Kaggle on the more general use cases of this data:
-
-Reduction of child mortality is reflected in several of the United Nations' Sustainable Development Goals and is a key indicator of human progress. The UN expects that by 2030, countries end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce under‑5 mortality to at least as low as 25 per 1,000 live births.
-
-Parallel to notion of child mortality is of course maternal mortality, which accounts for 295 000 deaths during and following pregnancy and childbirth (as of 2017). The vast majority of these deaths (94%) occurred in low-resource settings, and most could have been prevented.
-
-In light of what was mentioned above, Cardiotocograms (CTGs) are a simple and cost accessible option to assess fetal health, allowing healthcare professionals to take action in order to prevent child and maternal mortality. The equipment itself works by sending ultrasound pulses and reading its response, thus shedding light on fetal heart rate (FHR), fetal movements, uterine contractions and more.
 
 Data This dataset contains 2126 records of features extracted from Cardiotocogram exams, which were then classified by three expert obstetricians into 3 classes:
 
@@ -112,11 +102,42 @@ Median - histogram median
 Variance - histogram variance
  
 Tendency - histogram tendency
+
+Exploring the correlations between the Target and the Pathological Class: 
+
+![Target Correlation Barplot](https://user-images.githubusercontent.com/8728172/177602894-58527243-86c1-4b6a-b552-63dde7340cef.png)
+
+![Target Correlation](https://user-images.githubusercontent.com/8728172/177602925-653fdb1b-7609-4c8d-a059-ff95b83daa7b.png)
+
  
-I'll be using all features in the initial modeling of the data, and I advocate for a secondary model with dimensionality reduction using SHAP with improved feature selection in the future.
+
+METHODS: 
+
+![Machines Ranked by Recall in Pathological Class](https://user-images.githubusercontent.com/8728172/177601974-8fa36b56-9ced-4cdf-bee1-08fc522ad3bd.png)
+
+I tested iterations of Logistic Regression, KNN, Support Vector Machines, and Random Forest, with and without gridsearch crossvalidations, both as is and inside a One Vs All wrapper. I made recall of the Pathological class my target metric. 
+
+RESULTS: 
+
+I have two final models to propose: 
+
+<img width="358" alt="OVR_RF_test_gridsearch_cm" src="https://user-images.githubusercontent.com/8728172/177602326-4ff11151-35c6-4f36-9374-2b334096b687.png">
+
+The above model had a 90% precision of the Pathological class with a 92% Recall in the Pathological class, using all features. 
+
+By using SHAP to reduce dimensionality I was able to produce another model for roll out. 
+![SHAP Importances](https://user-images.githubusercontent.com/8728172/177602822-08ee88bd-fb7a-49ea-8c2a-9ad5d0613800.png)
 
 
-4.1  Future Work:
+
+<img width="358" alt="Final_model_test_grid" src="https://user-images.githubusercontent.com/8728172/177602338-22a2355b-e7d3-4890-ab3f-238f63116e84.png">
+
+The above model had a 91% precision of the Pathological class with a 88% Recall in the Pathological class, using a subset of features. 
+
+I'm proposing to do A/B testing on the two models to see which has the most utility. 
+
+
+FUTURE WORK:
 1) I'd like to revisit these models, especially my final model to retune them and see if I can't improve performance. Some of my models may have improved recall for the target class, or be more well rounded than my final model if they were less overfit.
  
 2) I'd like to speak with the data collection team and see if we could negotiate a new class or indicator in the data to mark lethal prenatel diagnoses. Only a fraction of the pathological diagnoses our current data represents are cases of lethal prenatal diagnoses.
