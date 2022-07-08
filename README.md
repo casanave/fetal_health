@@ -13,11 +13,6 @@ NYU Langone in NYC is doing research on Machine Learning and it's applications i
 **Proposed Solution** : An Early Detection AI for Pathological Diagnoses
 Priorotizing recall as the risk of a potentially lethal pregnancy going undetected would result in 1 and/or two deaths, and the risk of a false positive would result in further medical diagnostics. 
 
-I'll be using Cardiotocogram information from CITATION: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification.
-
-This data was published in 2000, by Marques de SÃ¡, J.P., Biomedical Engineering Institute, Porto, Portugal. Bernardes, J., Faculty of Medicine, University of Porto, Portugal. Ayres de Campos, D., Faculty of Medicine, University of Porto, Portugal.
-This is an appropriate data source for this problem/solution because it has a mix of Cardiotocogram information that range from normal to suspected diagnosis to pathological diagnosis.
-
 **NOTE: Pathological diagnosis in this data does not necessarily mean a lethal prenatal diagnosis, but that is the worst possible case that this data can represent.**
 
 **My stakeholder: consider the following three stakeholders--**
@@ -28,23 +23,15 @@ This is an appropriate data source for this problem/solution because it has a mi
 
 *NYU Langone* is looking to provide the best possible outcomes to their patients, no matter how they decide to proceed with their respective diagnoses. Clinicians time needs to be prioritized wisely. Early interventions always provide less invasive and less risky outcomes. NYU Langone is looking to save resources and better allocate those resources by implementing early detection tools for folks like Stacey and Alex. 
 
-​​CITATION: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification
 
-**CITATION** : Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
-From Kaggle on the Size of the Data and Classes within:
-
-Data This dataset contains 2126 records of features extracted from Cardiotocogram exams, which were then classified by three expert obstetricians into 3 classes:
+***Data*** This dataset contains 2126 records of features extracted from Cardiotocogram exams, which were then classified by three expert obstetricians into 3 classes:
 
 Normal
 
 Suspect
 
 Pathological
-
-**Further Reading**: https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9
-
-This is a paper by the original collectors of the data about their Machine Learning results.
 
 
 Exploring the correlations between the Target and the Pathological Class: 
@@ -109,6 +96,23 @@ For data collection:
 1) We can reduce the amount of data we are collecting for the purposes of this model, as proven by the model with reduced dimensions.
  
 2) We can be more specific in our data collection towards lethal prenatel diagnoses specifically.
+
+***SOURCES***
+I'll be using Cardiotocogram information from CITATION: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification.
+
+**Further Reading**: https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9
+
+This data was published in 2000, by Marques de SÃ¡, J.P., Biomedical Engineering Institute, Porto, Portugal. Bernardes, J., Faculty of Medicine, University of Porto, Portugal. Ayres de Campos, D., Faculty of Medicine, University of Porto, Portugal.
+This is an appropriate data source for this problem/solution because it has a mix of Cardiotocogram information that range from normal to suspected diagnosis to pathological diagnosis.
+
+
+​​CITATION: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification
+
+**CITATION** : Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+
+
+This is a paper by the original collectors of the data about their Machine Learning results.
+
 
 
 
