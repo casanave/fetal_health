@@ -123,65 +123,65 @@ This is a paper by the original collectors of the data about their Machine Learn
 
 --images
 
-  --plots
-  
-   --.DS_Store
+----plots
+
+---------.DS_Store
     
-   --Abnormal Short Term Variability.png
+---------Abnormal Short Term Variability.png
     
-   --Accelerations.png
+---------Accelerations.png
     
-   --Baseline Value.png
+---------Baseline Value.png
     
-   --Fetal Movement.png
+---------Fetal Movement.png
     
-   --Final_model_test_grid.png
+---------Final_model_test_grid.png
     
-   --Histogram Max.png
+---------Histogram Max.png
     
-   --Histogram Mean.png
+---------Histogram Mean.png
     
-   --Histogram Median.png
+---------Histogram Median.png
    
-   --Histogram Min.png
+---------Histogram Min.png
    
-   --Histogram Mode.png
+---------Histogram Mode.png
     
-   --Histogram Number Of Peaks.png
+---------Histogram Number Of Peaks.png
     
-   --Histogram Number Of Zeroes.png
+---------Histogram Number Of Zeroes.png
     
-   --Histogram Tendency.png
+---------Histogram Tendency.png
     
-   --Histogram Variance.png
+---------Histogram Variance.png
     
-   --Histogram Width.png
+---------Histogram Width.png
     
-   --Light Decelerations.png
+---------Light Decelerations.png
    
-   --Machines Ranked by Recall in Pathological Class.png
+---------Machines Ranked by Recall in Pathological Class.png
     
-   --Mean Value Of Long Term Variability.png
+---------Mean Value Of Long Term Variability.png
     
-   --Mean Value Of Short Term Variability.png
+---------Mean Value Of Short Term Variability.png
     
-   --OVR_RF_test_gridsearch_cm.png
+---------OVR_RF_test_gridsearch_cm.png
    
-   --Percentage Of Time With Abnormal Long Term Variability.png
+---------Percentage Of Time With Abnormal Long Term Variability.png
     
-   --Prolongued Decelerations.png
+---------Prolongued Decelerations.png
     
-   --SHAP Importances.png
+---------SHAP Importances.png
     
-   --Severe Decelerations.png
+---------Severe Decelerations.png
    
-   --Target Correlation Barplot.png
+---------Target Correlation Barplot.png
     
-   --Target Correlation.png
+---------Target Correlation.png
     
-   --Uterine Contractions.png
+---------Uterine Contractions.png
     
-   --cdc_mm_by_race.jpeg
+---------cdc_mm_by_race.jpeg
  
  
   -- PDFs
