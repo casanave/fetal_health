@@ -125,74 +125,75 @@ This is a paper by the original collectors of the data about their Machine Learn
 
   --plots
   
-    --.DS_Store
+   --.DS_Store
     
-    --Abnormal Short Term Variability.png
+   --Abnormal Short Term Variability.png
     
-    --Accelerations.png
+   --Accelerations.png
     
-    --Baseline Value.png
+   --Baseline Value.png
     
-    --Fetal Movement.png
+   --Fetal Movement.png
     
-    --Final_model_test_grid.png
+   --Final_model_test_grid.png
     
-    --Histogram Max.png
+   --Histogram Max.png
     
-    --Histogram Mean.png
+   --Histogram Mean.png
     
-    --Histogram Median.png
+   --Histogram Median.png
+   
+   --Histogram Min.png
+   
+   --Histogram Mode.png
     
-    --Histogram Min.png
+   --Histogram Number Of Peaks.png
     
-    --Histogram Mode.png
+   --Histogram Number Of Zeroes.png
     
-    --Histogram Number Of Peaks.png
+   --Histogram Tendency.png
     
-    --Histogram Number Of Zeroes.png
+   --Histogram Variance.png
     
-    --Histogram Tendency.png
+   --Histogram Width.png
     
-    --Histogram Variance.png
+   --Light Decelerations.png
+   
+   --Machines Ranked by Recall in Pathological Class.png
     
-    --Histogram Width.png
+   --Mean Value Of Long Term Variability.png
     
-    --Light Decelerations.png
+   --Mean Value Of Short Term Variability.png
     
-    --Machines Ranked by Recall in Pathological Class.png
+   --OVR_RF_test_gridsearch_cm.png
+   
+   --Percentage Of Time With Abnormal Long Term Variability.png
     
-    --Mean Value Of Long Term Variability.png
+   --Prolongued Decelerations.png
     
-    --Mean Value Of Short Term Variability.png
+   --SHAP Importances.png
     
-    --OVR_RF_test_gridsearch_cm.png
+   --Severe Decelerations.png
+   
+   --Target Correlation Barplot.png
     
-    --Percentage Of Time With Abnormal Long Term Variability.png
+   --Target Correlation.png
     
-    --Prolongued Decelerations.png
+   --Uterine Contractions.png
     
-    --SHAP Importances.png
-    
-    --Severe Decelerations.png
-    
-    --Target Correlation Barplot.png
-    
-    --Target Correlation.png
-    
-    --Uterine Contractions.png
-    
-    --cdc_mm_by_race.jpeg
+   --cdc_mm_by_race.jpeg
  
  
   -- PDFs
+  
+  --.DS_Store
     
-    --.DS_Store
+   -- Predicting Pathological Prenatal Diagnoses.pdf
     
-    -- Predicting Pathological Prenatal Diagnoses.pdf
+   --final_notebook - Jupyter Notebook.pdf
     
-    --final_notebook - Jupyter Notebook.pdf
-    
-    --github.pdf
+   --github.pdf
+  
   --.DS_Store
   
   --State-restrictions-on-abortion-map-June-2022-thumbnail.webp
