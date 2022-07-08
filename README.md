@@ -4,16 +4,8 @@ CITATION: https://www.cidrap.umn.edu/news-perspective/2022/06/maternal-deaths-cl
 
 Maternal Morbidity is already high and lacking in equity.![cdc_mm_by_race](https://user-images.githubusercontent.com/8728172/177600651-32f6a305-d27d-4f56-b8a8-d6fe241e9e35.jpeg)
 
-Duke University recently published a paper estimating that a total ban on abortion would increase Maternal morbidity rates dramatically.
-
-"...I find that in the first year of such a ban, estimated pregnancy-related deaths would increase from 675 to 724 (49 additional deaths, representing a 7% increase), and in subsequent years to 815 (140 additional deaths, for a 21% increase). Non-Hispanic Black people would experience the greatest increase in deaths (a 33% increase in subsequent years). Estimated pregnancy-related deaths would increase for all races and ethnicities examined."
-
-CITATION https://read.dukeupress.edu/demography/article/58/6/2019/265968/The-Pregnancy-Related-Mortality-Impact-of-a-Total
 
 Given the most recent overturning of Roe vs. Wade in the United States, it's crucial that medical research is performed with the goal of decreasing maternal morbidity. It's especially important that health care solutions for birthing parents be accessible and low cost.
-
-![sharon-mccutcheon--iaHr12PVQg-unsplash](https://user-images.githubusercontent.com/8728172/177600886-9d990ae5-3251-43dc-b38e-e848136a4676.jpg)
-
 
 Business Case: Maternal Morbidity Research
 NYU Langone in NYC is doing research on Machine Learning and it's applications in lethal fetal diagnoses. Early detection in these cases provide the best possible medical outcomes for birthing parents and provide the most choices on how the birthing parents would like to handle the diagnosis.
