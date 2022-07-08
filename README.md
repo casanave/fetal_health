@@ -1,4 +1,4 @@
-Problem: Maternal Morbidity on the Rise
+**Problem** : Maternal Morbidity on the Rise
 According to the University of Minnesota, "Maternal deaths in the first months of the COVID-19 pandemic increased 33%—and even higher in Black and Hispanic women..."
 CITATION: https://www.cidrap.umn.edu/news-perspective/2022/06/maternal-deaths-climbed-33-during-covid-19.
 
@@ -7,32 +7,30 @@ Maternal Morbidity is already high and lacking in equity.![cdc_mm_by_race](https
 
 Given the most recent overturning of Roe vs. Wade in the United States, it's crucial that medical research is performed with the goal of decreasing maternal morbidity. It's especially important that health care solutions for birthing parents be accessible and low cost.
 
-Business Case: Maternal Morbidity Research
+**Business Case** : Maternal Morbidity Research
 NYU Langone in NYC is doing research on Machine Learning and it's applications in lethal fetal diagnoses. Early detection in these cases provide the best possible medical outcomes for birthing parents and provide the most choices on how the birthing parents would like to handle the diagnosis.
 
-Proposed Solution: An Early Detection AI for Pathological Diagnoses
+**Proposed Solution** : An Early Detection AI for Pathological Diagnoses
 Priorotizing recall as the risk of a potentially lethal pregnancy going undetected would result in 1 and/or two deaths, and the risk of a false positive would result in further medical diagnostics. 
 
-
-Data Understanding
 I'll be using Cardiotocogram information from CITATION: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification.
 
 This data was published in 2000, by Marques de SÃ¡, J.P., Biomedical Engineering Institute, Porto, Portugal. Bernardes, J., Faculty of Medicine, University of Porto, Portugal. Ayres de Campos, D., Faculty of Medicine, University of Porto, Portugal.
 This is an appropriate data source for this problem/solution because it has a mix of Cardiotocogram information that range from normal to suspected diagnosis to pathological diagnosis.
 
-NOTE: Pathological diagnosis in this data does not necessarily mean a lethal prenatal diagnosis, but that is the worst possible case that this data can represent. 
+**NOTE: Pathological diagnosis in this data does not necessarily mean a lethal prenatal diagnosis, but that is the worst possible case that this data can represent.**
 
-My stakeholder: consider the following three stakeholders--
+**My stakeholder: consider the following three stakeholders--**
 
-Stacey has a pre-existing medical condition putter her at high risk during her pregnancy. Where she lives, there are restrictions set in place, preventing her from getting an abortion after the first trimester. 
+*Stacey* has a pre-existing medical condition putter her at high risk during her pregnancy. Where she lives, there are restrictions set in place, preventing her from getting an abortion after the first trimester. 
 
-Alex has religious beleifs and knows she will want to carry her pregnancy to term and meet her child face to face if at all possible, even if that child has a fetal prenatal diagnosis. 
+*Alex* has religious beleifs and knows she will want to carry her pregnancy to term and meet her child face to face if at all possible, even if that child has a fetal prenatal diagnosis. 
 
-NYU Langone is looking to provide the best possible outcomes to their patients, no matter how they decide to proceed with their respective diagnoses. Clinicians time needs to be prioritized wisely. Early interventions always provide less invasive and less risky outcomes. NYU Langone is looking to save resources and better allocate those resources by implementing early detection tools for folks like Stacey and Alex. 
+*NYU Langone* is looking to provide the best possible outcomes to their patients, no matter how they decide to proceed with their respective diagnoses. Clinicians time needs to be prioritized wisely. Early interventions always provide less invasive and less risky outcomes. NYU Langone is looking to save resources and better allocate those resources by implementing early detection tools for folks like Stacey and Alex. 
 
 ​​CITATION: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification
 
-CITATION : Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+*8CITATION** : Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
 From Kaggle on the Size of the Data and Classes within:
 
@@ -44,7 +42,7 @@ Suspect
 
 Pathological
 
-Further Reading: https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9
+**Further Reading**: https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9
 
 This is a paper by the original collectors of the data about their Machine Learning results.
 
@@ -57,13 +55,13 @@ Exploring the correlations between the Target and the Pathological Class:
 
  
 
-METHODS: 
+**METHODS:**
 
 ![Machines Ranked by Recall in Pathological Class](https://user-images.githubusercontent.com/8728172/177601974-8fa36b56-9ced-4cdf-bee1-08fc522ad3bd.png)
 
 I tested iterations of Logistic Regression, KNN, Support Vector Machines, and Random Forest, with and without gridsearch crossvalidations, both as is and inside a One Vs All wrapper. I made recall of the Pathological class my target metric. 
 
-RESULTS: 
+**RESULTS:**
 
 I have two final models to propose: 
 
@@ -83,7 +81,7 @@ The above model had a 91% precision of the Pathological class with a 88% Recall 
 I'm proposing to do A/B testing on the two models to see which has the most utility. 
 
 
-FUTURE WORK:
+**FUTURE WORK: **
 1) Retune Models
 
 2) Reorganize Data Collection Methods
@@ -115,7 +113,7 @@ For data collection:
 
 
 
-REPO NAV:
+**REPO NAV:**
 
 --.ipynb_checkpoints
 
