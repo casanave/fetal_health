@@ -30,7 +30,7 @@ This is an appropriate data source for this problem/solution because it has a mi
 
 ​​CITATION: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification
 
-*8CITATION** : Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+**CITATION** : Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
 From Kaggle on the Size of the Data and Classes within:
 
