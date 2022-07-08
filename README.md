@@ -19,19 +19,16 @@ Business Case: Maternal Morbidity Research
 NYU Langone in NYC is doing research on Machine Learning and it's applications in lethal fetal diagnoses. Early detection in these cases provide the best possible medical outcomes for birthing parents and provide the most choices on how the birthing parents would like to handle the diagnosis.
 
 Proposed Solution: An Early Detection AI for Pathological Diagnoses
-I've been hired by NYU Langone to do design a model. I've decided that this model will focus on having a high recall as it's primary metric. This is because the risk of a potentially lethal pregnancy going undetected would result in 1 and/or two deaths, and the risk of a false positive would result in further medical diagnostics. This model is designed to flag pathological diagnoses as early as possible, for a doctor to confirm the diagnosis. This model is NOT designed to replace the diagnostic capabilities of a doctor, but to save time and resources for birthing parents and hospitals.
+Priorotizing recall as the risk of a potentially lethal pregnancy going undetected would result in 1 and/or two deaths, and the risk of a false positive would result in further medical diagnostics. 
 
-I'll be working with Cardiotocogram information specifically, and provide NYU Langone with my final result as proof of concept for further research.
 
 Data Understanding
 I'll be using Cardiotocogram information from CITATION: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification.
 
-The original data is here: https://archive.ics.uci.edu/ml/datasets/cardiotocography
-
 This data was published in 2000, by Marques de SÃ¡, J.P., Biomedical Engineering Institute, Porto, Portugal. Bernardes, J., Faculty of Medicine, University of Porto, Portugal. Ayres de Campos, D., Faculty of Medicine, University of Porto, Portugal.
 This is an appropriate data source for this problem/solution because it has a mix of Cardiotocogram information that range from normal to suspected diagnosis to pathological diagnosis.
 
-NOTE: Pathological diagnosis in this data does not necessarily mean a lethal prenatal diagnosis, but that is the worst possible case that this data can represent. Therefore I'm going to be focusing on the "Pathological" class within this data, especially, and bear in mind that the more generalized and broad use cases for this model will be early detection of all pathological diagnoses. 
+NOTE: Pathological diagnosis in this data does not necessarily mean a lethal prenatal diagnosis, but that is the worst possible case that this data can represent. 
 
 My stakeholder: consider the following three stakeholders--
 
