@@ -7,22 +7,15 @@ Maternal Morbidity is already high and lacking in equity.![cdc_mm_by_race](https
 
 Given the most recent overturning of Roe vs. Wade in the United States, it's crucial that medical research is performed with the goal of decreasing maternal morbidity. It's especially important that health care solutions for birthing parents be accessible and low cost.
 
-**Business Case** : Maternal Morbidity Research
+**Hypothetical Business Case** : Maternal Morbidity Research
 NYU Langone in NYC is doing research on Machine Learning and it's applications in lethal fetal diagnoses. Early detection in these cases provide the best possible medical outcomes for birthing parents and provide the most choices on how the birthing parents would like to handle the diagnosis.
+
+![sharon-mccutcheon--iaHr12PVQg-unsplash](https://user-images.githubusercontent.com/8728172/178084770-b9206d61-b0f0-4922-89af-9bcb2e925db5.jpg)
 
 **Proposed Solution** : An Early Detection AI for Pathological Diagnoses
 Priorotizing recall as the risk of a potentially lethal pregnancy going undetected would result in 1 and/or two deaths, and the risk of a false positive would result in further medical diagnostics. 
 
 **NOTE: Pathological diagnosis in this data does not necessarily mean a lethal prenatal diagnosis, but that is the worst possible case that this data can represent.**
-
-**My stakeholder: consider the following three stakeholders--**
-
-*Stacey* has a pre-existing medical condition putter her at high risk during her pregnancy. Where she lives, there are restrictions set in place, preventing her from getting an abortion after the first trimester. 
-
-*Alex* has religious beleifs and knows she will want to carry her pregnancy to term and meet her child face to face if at all possible, even if that child has a fetal prenatal diagnosis. 
-
-*NYU Langone* is looking to provide the best possible outcomes to their patients, no matter how they decide to proceed with their respective diagnoses. Clinicians time needs to be prioritized wisely. Early interventions always provide less invasive and less risky outcomes. NYU Langone is looking to save resources and better allocate those resources by implementing early detection tools for folks like Stacey and Alex. 
-
 
 
 ***Data*** This dataset contains 2126 records of features extracted from Cardiotocogram exams, which were then classified by three expert obstetricians into 3 classes:
@@ -32,13 +25,6 @@ Normal
 Suspect
 
 Pathological
-
-
-Exploring the correlations between the Target and the Pathological Class: 
-
-![Target Correlation Barplot](https://user-images.githubusercontent.com/8728172/177602894-58527243-86c1-4b6a-b552-63dde7340cef.png)
-
-![Target Correlation](https://user-images.githubusercontent.com/8728172/177602925-653fdb1b-7609-4c8d-a059-ff95b83daa7b.png)
 
  
 
@@ -123,65 +109,65 @@ This is a paper by the original collectors of the data about their Machine Learn
 
 --images
 
-  --plots
-  
-   --.DS_Store
+----plots
+
+---------.DS_Store
     
-   --Abnormal Short Term Variability.png
+---------Abnormal Short Term Variability.png
     
-   --Accelerations.png
+---------Accelerations.png
     
-   --Baseline Value.png
+---------Baseline Value.png
     
-   --Fetal Movement.png
+---------Fetal Movement.png
     
-   --Final_model_test_grid.png
+---------Final_model_test_grid.png
     
-   --Histogram Max.png
+---------Histogram Max.png
     
-   --Histogram Mean.png
+---------Histogram Mean.png
     
-   --Histogram Median.png
+---------Histogram Median.png
    
-   --Histogram Min.png
+---------Histogram Min.png
    
-   --Histogram Mode.png
+---------Histogram Mode.png
     
-   --Histogram Number Of Peaks.png
+---------Histogram Number Of Peaks.png
     
-   --Histogram Number Of Zeroes.png
+---------Histogram Number Of Zeroes.png
     
-   --Histogram Tendency.png
+---------Histogram Tendency.png
     
-   --Histogram Variance.png
+---------Histogram Variance.png
     
-   --Histogram Width.png
+---------Histogram Width.png
     
-   --Light Decelerations.png
+---------Light Decelerations.png
    
-   --Machines Ranked by Recall in Pathological Class.png
+---------Machines Ranked by Recall in Pathological Class.png
     
-   --Mean Value Of Long Term Variability.png
+---------Mean Value Of Long Term Variability.png
     
-   --Mean Value Of Short Term Variability.png
+---------Mean Value Of Short Term Variability.png
     
-   --OVR_RF_test_gridsearch_cm.png
+---------OVR_RF_test_gridsearch_cm.png
    
-   --Percentage Of Time With Abnormal Long Term Variability.png
+---------Percentage Of Time With Abnormal Long Term Variability.png
     
-   --Prolongued Decelerations.png
+---------Prolongued Decelerations.png
     
-   --SHAP Importances.png
+---------SHAP Importances.png
     
-   --Severe Decelerations.png
+---------Severe Decelerations.png
    
-   --Target Correlation Barplot.png
+---------Target Correlation Barplot.png
     
-   --Target Correlation.png
+---------Target Correlation.png
     
-   --Uterine Contractions.png
+---------Uterine Contractions.png
     
-   --cdc_mm_by_race.jpeg
+---------cdc_mm_by_race.jpeg
  
  
   -- PDFs
