@@ -26,13 +26,6 @@ Suspect
 
 Pathological
 
-
-Exploring the correlations between the Target and the Pathological Class: 
-
-![Target Correlation Barplot](https://user-images.githubusercontent.com/8728172/177602894-58527243-86c1-4b6a-b552-63dde7340cef.png)
-
-![Target Correlation](https://user-images.githubusercontent.com/8728172/177602925-653fdb1b-7609-4c8d-a059-ff95b83daa7b.png)
-
  
 
 **METHODS:**
