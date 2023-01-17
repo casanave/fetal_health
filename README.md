@@ -1,22 +1,10 @@
-**Problem** : Maternal Morbidity on the Rise
-According to the University of Minnesota, "Maternal deaths in the first months of the COVID-19 pandemic increased 33%—and even higher in Black and Hispanic women..."
-CITATION: https://www.cidrap.umn.edu/news-perspective/2022/06/maternal-deaths-climbed-33-during-covid-19.
+![sharon-mccutcheon--iaHr12PVQg-unsplash](https://user-images.githubusercontent.com/8728172/212955595-7b1b1c6e-e404-4338-95a7-f37ac8a96a25.jpg)
 
-Maternal Morbidity is already high and lacking in equity.![cdc_mm_by_race](https://user-images.githubusercontent.com/8728172/177600651-32f6a305-d27d-4f56-b8a8-d6fe241e9e35.jpeg)
+**Problem** : 
+Nurses are responsible for maintaining care of pregnant folks during their CTG. They are also burdened with reading and interpreting the CTG which can get in the way of maintaining care of the folks in their charge.
 
-
-Given the most recent overturning of Roe vs. Wade in the United States, it's crucial that medical research is performed with the goal of decreasing maternal morbidity. It's especially important that health care solutions for birthing parents be accessible and low cost.
-
-**Hypothetical Business Case** : Maternal Morbidity Research
-NYU Langone in NYC is doing research on Machine Learning and it's applications in lethal fetal diagnoses. Early detection in these cases provide the best possible medical outcomes for birthing parents and provide the most choices on how the birthing parents would like to handle the diagnosis.
-
-![sharon-mccutcheon--iaHr12PVQg-unsplash](https://user-images.githubusercontent.com/8728172/178084770-b9206d61-b0f0-4922-89af-9bcb2e925db5.jpg)
-
-**Proposed Solution** : An Early Detection AI for Pathological Diagnoses
-Priorotizing recall as the risk of a potentially lethal pregnancy going undetected would result in 1 and/or two deaths, and the risk of a false positive would result in further medical diagnostics. 
-
-**NOTE: Pathological diagnosis in this data does not necessarily mean a lethal prenatal diagnosis, but that is the worst possible case that this data can represent.**
-
+**Proposed Solution** : 
+Train an algorithm to read the CTG and provide insights towards early detection of pathological CTG scans so nurses can do what they're best at: Patient Care, and health outcomes are improved.
 
 ***Data*** This dataset contains 2126 records of features extracted from Cardiotocogram exams, which were then classified by three expert obstetricians into 3 classes:
 
@@ -25,7 +13,6 @@ Normal
 Suspect
 
 Pathological
-
  
 
 **METHODS:**
